@@ -1,6 +1,6 @@
 # getipinfo
 
-This is a commandline utility tool to fetch GeoLocation information for a given IP Address.
+This is a command-line utility tool to fetch GeoLocation information for a given IP Address.
 
 ## Installation
 
