@@ -17,6 +17,7 @@ build:
 		for goos in $(GOOS); do \
 			for goarch in $(GOARCH); do \
 				GOOS=$$goos GOARCH=$$goarch $(GOBUILD) cmd/getipinfo/getipinfo.go; \
+				upx --brute getipinfo; \
 				mv getipinfo $(GOBIN)/$(BINARY_NAME)-$$goos-$$goarch-$(VERSION); \
 			done \
 		done
