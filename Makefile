@@ -6,7 +6,7 @@ BINARY_NAME=getipinfo
 GOBIN=bin
 GOOS=darwin linux
 GOARCH=amd64 386
-VERSION=v0.1-alpha
+VERSION=v0.1
 
 all: prepare build
 prepare:

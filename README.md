@@ -7,8 +7,8 @@ This is a command-line utility tool to fetch GeoLocation information for a given
 ### MacOSX
 
 ```bash
-$ wget https://github.com/maateen/getipinfo/releases/download/v0.1-alpha/getipinfo-darwin-amd64-v0.1-alpha
-$ cp bin/getipinfo-darwin-amd64-v0.1-alpha /usr/local/bin/getipinfo
+$ wget https://github.com/maateen/getipinfo/releases/download/v0.1/getipinfo-darwin-amd64-v0.1
+$ cp bin/getipinfo-darwin-amd64-v0.1 /usr/local/bin/getipinfo
 $ chmod +x /usr/local/bin/getipinfo
 ```
 
