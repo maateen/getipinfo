@@ -5,10 +5,10 @@ import (
 	"net/http"
 )
 
-var URL string = "http://ip-api.com/json/"
+var URL = "http://ip-api.com/json/"
 
 // GetJson returns GeoLocation of a given IP Address in JSON format.
-func GetJson(ipAddress string) map[string]interface{}  {
+func GetJson(ipAddress string) map[string]interface{} {
 	resp, err := http.Get(URL + ipAddress)
 	defer resp.Body.Close()
 

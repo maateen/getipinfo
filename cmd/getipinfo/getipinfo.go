@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
+	. "github.com/logrusorgru/aurora"
 	"github.com/maateen/getipinfo/internal/ipapi"
 	"os"
-	. "github.com/logrusorgru/aurora"
 )
 
-func main()  {
+func main() {
 	if len(os.Args) > 1 {
 		ipAddress := os.Args[1]
 		printData(ipapi.GetJson(ipAddress))
