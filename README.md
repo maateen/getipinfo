@@ -1,5 +1,7 @@
 # getipinfo
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/maateen/getipinfo)](https://goreportcard.com/report/github.com/maateen/getipinfo)
+
 This is a command-line utility tool to fetch GeoLocation information for a given IP Address.
 
 ## Installation
